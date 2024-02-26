@@ -1,0 +1,7 @@
+For a Binary Heap, the average time complexities are as follows:
+
+- Inserting the value n: O(log n)
+- Extracting the root node: O(log n)
+- Searching for a node in a binary heap of size n: O(n)
+
+Binary heaps are efficient for insertion and extraction of the minimum (or maximum) element, which both have a time complexity of O(log n) due to the heap's structure. However, searching for a specific node in a binary heap requires scanning all nodes, resulting in a time complexity of O(n) in the average case.

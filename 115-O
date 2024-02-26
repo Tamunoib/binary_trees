@@ -1,0 +1,7 @@
+For a Binary Search Tree (BST), the average time complexities are as follows:
+
+- Inserting the value n: O(log n) on average, but O(n) in the worst case if the tree is unbalanced.
+- Removing the node with the value n: O(log n) on average, but O(n) in the worst case if the tree is unbalanced.
+- Searching for a node in a BST of size n: O(log n) on average, but O(n) in the worst case if the tree is unbalanced.
+
+The time complexities for BST operations depend on the balance of the tree. In the worst-case scenario where the tree is unbalanced (e.g., resembles a linked list), the time complexity degrades to O(n).

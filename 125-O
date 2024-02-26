@@ -1,0 +1,7 @@
+Sure, here are the average time complexities for the operations on an AVL tree:
+
+- Inserting the value n: O(log n)
+- Removing the node with the value n: O(log n)
+- Searching for a node in an AVL tree of size n: O(log n)
+
+AVL trees maintain balance, which ensures that the height of the tree remains O(log n), leading to these time complexities for these operations.
